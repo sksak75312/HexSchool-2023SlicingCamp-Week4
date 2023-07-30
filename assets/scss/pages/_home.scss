@@ -1,6 +1,6 @@
 // 主視覺
 .banner {
-  background-image: url("../assets/images/home-header.png");
+  background-image: url("../images/home-header.png");
   height: 396px;
 }
 
@@ -24,7 +24,7 @@
 
 // 聯名系列
 .joint {
-  background-image: url("../assets/images/index-bg-md.png");
+  background-image: url("../images/index-bg-md.png");
 
   &__link:hover .joint__img {
     opacity: 0.8;
@@ -32,10 +32,10 @@
 
   &__item {
     &:nth-child(1) .joint__img {
-      background-image: url("../assets/images/home-section4-1-sm.png");
+      background-image: url("../images/home-section4-1-sm.png");
     } 
     &:nth-child(2) .joint__img {
-      background-image: url("../assets/images/home-section4-2-sm.png");
+      background-image: url("../images/home-section4-2-sm.png");
     }
   }
 
