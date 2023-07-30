@@ -1,0 +1,58 @@
+// 主視覺
+.banner {
+  background-image: url("../assets/images/home-header.png");
+  height: 396px;
+}
+
+// 服務
+.serve__material {
+  font-size: 84px;
+}
+
+// 經典系列
+.classic__link:hover img {
+  transform: scale(1.10);
+}
+
+.classic__img {
+  overflow: hidden;
+
+  img {
+    transition: .2s ease-in;
+  }
+}
+
+// 聯名系列
+.joint {
+  background-image: url("../assets/images/index-bg-md.png");
+
+  &__link:hover .joint__img {
+    opacity: 0.8;
+  }
+
+  &__item {
+    &:nth-child(1) .joint__img {
+      background-image: url("../assets/images/home-section4-1-sm.png");
+    } 
+    &:nth-child(2) .joint__img {
+      background-image: url("../assets/images/home-section4-2-sm.png");
+    }
+  }
+
+  &__img {
+    height: 240px;
+    transition: .2s ease-in;
+  }
+}
+
+.client__card {
+  min-height: 511px;
+}
+
+
+// 設備768px以上
+@media (min-width: 768px) {
+  .banner {
+    height: 787px;
+  }
+}

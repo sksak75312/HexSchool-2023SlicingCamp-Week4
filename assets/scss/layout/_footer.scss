@@ -1,0 +1,19 @@
+.footer__social img {
+  width: 24px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer__social img {
+    width: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer__social img {
+    width: 48px;
+  }
+}

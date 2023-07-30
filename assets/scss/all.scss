@@ -1,0 +1,39 @@
+// Bootstrap
+// Configuration 配置
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./utils/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "./utils/utilities";
+
+// Layout & components 佈局及元件
+@import "../../node_modules/bootstrap/scss/root";
+@import "../../node_modules/bootstrap/scss/reboot"; 
+@import "../../node_modules/bootstrap/scss/type";
+@import "../../node_modules/bootstrap/scss/images";
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/forms";
+@import "../../node_modules/bootstrap/scss/buttons";
+@import "../../node_modules/bootstrap/scss/nav";
+@import "../../node_modules/bootstrap/scss/navbar";
+@import "../../node_modules/bootstrap/scss/card";
+@import "../../node_modules/bootstrap/scss/pagination";
+
+// Helpers 幫手
+@import "../../node_modules/bootstrap/scss/helpers";
+
+// Utilities 共用
+@import "../../node_modules/bootstrap/scss/utilities/api";
+
+// 自定義樣式 layout 資料夾
+@import "./layout/header";
+@import "./layout/footer";
+
+// 自定義樣式 components 資料夾
+@import "./components/pagination";
+
+// 自定義樣式 pages 資料夾
+@import "./pages/home";
+@import "./pages/product";
+@import "./pages/stores";
+@import "./pages/blog";

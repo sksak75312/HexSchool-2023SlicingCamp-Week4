@@ -1,0 +1,13 @@
+.stores__select {
+  width: 276px;
+}
+
+.stores__link:hover {
+  color: map-get($theme-colors, primary) !important;
+}
+
+@media (min-width: 768px) {
+  .stores__select {
+    width: 304px;
+  }
+}
