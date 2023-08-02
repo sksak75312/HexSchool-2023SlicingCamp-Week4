@@ -1,0 +1,15 @@
+.breadcrumb-item.active {
+  color: $primary;
+}
+
+.article__social {
+
+  &__img {
+    width: 24px;
+    height: 24px;
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+}

@@ -1,9 +1,44 @@
-.product__link-active {
-    border-bottom: 8px solid #AA0601 !important;
-    padding-bottom: 16px - 8px !important;
+.product__nav {
+
+  &-active {
+    position: relative;
+    &::before {
+      position: absolute;
+      bottom: 0;
+      display: block;
+      content: '';
+      width: 100%;
+      height: 8px;
+      background: $primary;
+    }
+  }
+
+  &-hover {
+      position: relative;
+    &::after {
+      position: absolute;
+      bottom: 0;
+      display: block;
+      content: '';
+      width: 100%;
+      height: 8px;
+      background: $primary;
+      transform: scale(0, 0);
+      transform-origin: left;
+      transition: transform .5s ease-in;
+    }
+  
+    &:hover::after {
+      transform: scale(1,1);
+    }
+
+  }
 }
 
-.product__show {
+
+
+// optical banner
+.banner__optical {
   height: 136px;
 
   &:nth-child(1) {
@@ -12,6 +47,19 @@
 
   &:nth-child(2) {
     background: url("../images/product-header-sm-2.png");
+  }
+}
+
+//sunglasses banner 
+.banner__sunglasses {
+  height: 136px;
+
+  &:nth-child(1) {
+    background: url('../images/product-header-sm-3.png');
+  }
+
+  &:nth-child(2) {
+    background: url("../images/product-header-sm-4.png");
   }
 }
 
@@ -47,7 +95,7 @@
 }
 
 @media (min-width: 768px) {
-  .product__show {
+  .banner__optical, .banner__sunglasses {
     height: 296px;
   }
 }
@@ -57,13 +105,23 @@
     padding-bottom: 24px - 8px !important;
   }
 
-  .product__show {
+  .banner__optical {
     &:nth-child(1) {
       background: url('../images/product-header-1.png');
     }
 
     &:nth-child(2) {
       background: url("../images/product-header-2.png");
+    }
+  }
+
+  .banner__sunglasses {
+    &:nth-child(1) {
+      background: url('../images/product-header-3.png');
+    }
+
+    &:nth-child(2) {
+      background: url("../images/product-header-4.png");
     }
   }
 }

@@ -90,11 +90,11 @@ $theme-colors: (
   "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
+  "black":      $black,
   "third":     #DEE2E6,
-  "dark-third": #707070,
+  "dark-third": #555555,
   "light-third": #00000029,
   "light-gray": #CED4DA,
-  "black": $black,
 ) !default;
 // scss-docs-end theme-colors-map
 
@@ -633,7 +633,8 @@ $font-sizes: (
   6: $h6-font-size,
   7: $font-size-base * 0.875,
   32: 32px,
-  42: 42px
+  42: 42px,
+  18: 18px
 ) !default;
 // scss-docs-end font-sizes
 

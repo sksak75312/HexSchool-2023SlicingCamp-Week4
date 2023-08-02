@@ -1,0 +1,16 @@
+.store__googleMap {
+  width: 100%;
+  height: 208px;
+}
+
+@media (min-width: 768px) {
+  .store__googleMap {
+    height: 414px;
+  }
+}
+
+@media (min-width: 992px) {
+  .store__googleMap {
+    height: 100%;
+  }
+} 

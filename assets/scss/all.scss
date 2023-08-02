@@ -18,6 +18,8 @@
 @import "../../node_modules/bootstrap/scss/navbar";
 @import "../../node_modules/bootstrap/scss/card";
 @import "../../node_modules/bootstrap/scss/pagination";
+@import "../../node_modules/bootstrap/scss/dropdown";
+@import "../../node_modules/bootstrap/scss/breadcrumb";
 
 // Helpers 幫手
 @import "../../node_modules/bootstrap/scss/helpers";
@@ -37,3 +39,5 @@
 @import "./pages/product";
 @import "./pages/stores";
 @import "./pages/blog";
+@import "./pages/storeDetail";
+@import "./pages/article";

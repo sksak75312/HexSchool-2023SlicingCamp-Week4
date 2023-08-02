@@ -12,31 +12,32 @@
   </head>
   <body>
     <%- include('./layout/header'); -%>
+    
+    <!-- 部落格導覽列 -->
+    <nav class="navbar navbar-expand d-none d-md-block bg-secondary">
+      <div class="container">
+        <ul class="navbar-nav gap-10">
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-white px-0" href="#">最新消息</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-white px-0" href="#">特別企劃</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-white px-0" href="#">新品上市</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fs-5 text-white px-0" href="#">鏡框小知識</a>
+          </li>
+        </ul>
+        <span class="search__icon material-symbols-outlined text-white">
+          search
+        </span>
+      </div>
+    </nav>
 
     <!-- 部落格內容 -->
     <main>
-      <!-- 部落格導覽列 -->
-      <nav class="navbar navbar-expand d-none d-md-block bg-secondary">
-        <div class="container">
-          <ul class="navbar-nav gap-10">
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white px-0" href="#">最新消息</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white px-0" href="#">特別企劃</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white px-0" href="#">新品上市</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link fs-5 text-white px-0" href="#">鏡框小知識</a>
-            </li>
-          </ul>
-          <span class="search__icon material-symbols-outlined text-white">
-            search
-          </span>
-        </div>
-      </nav>
       <!-- 部落格文章 -->
       <section class="blog py-9 py-md-12">
         <div class="container">
@@ -60,7 +61,7 @@
                   <div class="d-none d-md-block flex-grow-1">
                     <p class="blog__text fs-lg-5 mb-0">一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！ 即日起至2/16為止，不論是熱戀情侶、自由自在一個人或是老夫老妻，只要從未來過本店的新朋友，綁定官方LINE好友，都可享專屬優惠⋯⋯</p>
                   </div>
-                  <a href="#" class="article__link-hover d-none d-lg-inline-block ms-auto fs-3 fw-bold text-secondary text-decoration-none">MORE</a>
+                  <a href="./article.html" class="article__link-hover d-none d-lg-inline-block ms-auto fs-3 fw-bold text-secondary text-decoration-none">MORE</a>
                 </div>
               </div>
             </li>
