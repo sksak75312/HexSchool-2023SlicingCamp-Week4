@@ -1,9 +1,11 @@
-.stores__dropdown {
-  width: 276px;
-}
+.stores {
+  &__dropdown {
+    width: 276px;
+  }
 
-.stores__link:hover {
-  color: map-get($theme-colors, primary) !important;
+  &__link:hover {
+    color: map-get($theme-colors, primary) !important;
+  }
 }
 
 @media (min-width: 768px) {

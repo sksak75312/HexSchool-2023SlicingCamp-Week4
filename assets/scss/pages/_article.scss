@@ -2,14 +2,19 @@
   color: $primary;
 }
 
-.article__social {
-
-  &__img {
-    width: 24px;
-    height: 24px;
+.article {
+  &__social {
+    &__img {
+      width: 24px;
+      height: 24px;
+    }
+  
+    a:hover {
+      opacity: 0.7;
+    }
   }
 
-  a:hover {
-    opacity: 0.7;
+  &__nav:hover {
+    color: $primary !important;
   }
 }

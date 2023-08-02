@@ -1,17 +1,23 @@
-.search__icon {
-  font-size: 30px;
-  cursor: pointer;
-}
+.blog {
+  &__search {
+    font-size: 30px;
+    cursor: pointer;
+  }
 
-.blog__text {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box !important;
-  -webkit-line-clamp: 6;
-  -webkit-box-orient: vertical;
-}
+  &__img {
+    height: 100%;
+    object-fit: cover;
+  }
 
+  &__text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
 
-.article__link-hover:hover {
-  color: $primary !important;
+  &__link-hover:hover {
+    color: $primary !important;
+  }
 }

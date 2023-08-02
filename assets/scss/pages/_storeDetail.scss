@@ -1,16 +1,21 @@
-.store__googleMap {
+.storeDetail__img {
+  height: 224px;
+  object-fit: cover;
+}
+
+.storeDetail__googleMap {
   width: 100%;
   height: 208px;
 }
 
 @media (min-width: 768px) {
-  .store__googleMap {
+  .storeDetail__googleMap {
     height: 414px;
   }
 }
 
 @media (min-width: 992px) {
-  .store__googleMap {
+  .storeDetail__googleMap {
     height: 100%;
   }
 } 
